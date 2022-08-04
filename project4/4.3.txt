@@ -1,0 +1,33 @@
+Describe an alternate scenario where Google’s development decisions for the Android API would likely constitute a fair use violation.
+
+
+
+
+In his dissent, Justice Thomas argues that "declaring code" is protected by copyright. Do you agree or disagree with his reasoning? Explain.
+
+Justice Thomas's decision here makes lots of sense because copying the declaring code method names should belong to the
+ owner and credit should be given to whoever creates said methods. Copyrights go on something that is your idea so 
+others are not able to steal that and claim it as their own, so it makes sense to imply that your own code is your idea.
+I am not arguing in any way that it should not be copyrighted because at the end of the day it is someone's creation and
+ innovation, but that does not mean it should be allowed to hold back development and creativity, hence the fair use act
+ which allows companies to use the idea or code for the possibility of innovation and advancing the world. Since API is 
+more functional than creative that should be used as a basis for all fair use because that makes sense to not bar others 
+from a functional use of code that serves nothing but usually to be called to create more code. In short, all declaring 
+codes should be copyrighted, and the function the code serves and what it does should determine if it can be used in fair 
+use (ie the specific use of it and what the goal of the code is like if it is a building block to the creation or if it 
+is the final creation).
+
+
+Suppose the Supreme Court had ruled in favor of Oracle (i.e., that APIs can be copyrighted). 
+What effects does this alternate ruling have on existing software? Give a specific example of an impacted technology.
+
+If the case had been ruled in favor of Oracle we would run into a few issues. This could create a standardization 
+issue of programming languages. For example, we use the Oracle API to use and learn java but if google had to create 
+their own API for their programmers to learn java we would be having to learn a new language essentially anywhere we 
+wanted to go to code. This also can create a monopoly if one company controls entire coding languages API and its not 
+available to everyone then we run into the issue of a programmer shortage even greater than what we have now because 
+people would more likely be trapped in their companies and their coding languages they know. If there is a monopoly 
+oracle could charge everyone that wanted to use java for their use of the API which is a big hindrance and could stubble 
+growth in the world of programming. If this case had gone the other way (oracles favor) we do not have android smartphones 
+because that is what googles plan was, they were trying to allow their programmers the ability to create the android OS in 
+a familiar environment using what java programmers would already know and be efficient in. 

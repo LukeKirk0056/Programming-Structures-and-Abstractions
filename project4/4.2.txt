@@ -1,0 +1,25 @@
+1. Reading the privacy and terms I noticed it said that info is protected and they will specifically be 
+
+asking for permission for anything that involves personal files or data, meaning it is an opt-in page.
+It is opt-in because as it requires they ask to use your info and you have to allow (or "opt-in") for them to handle your data.
+
+2.Describe two tools people can use to protect their privacy online. What kind of information do they aim to protect?
+Two things users can use to protect their privacy and ensure data is not stolen or wrongfully used/hacked would be a VPN or protected 
+browser that doesnt allow websites to store any information. VPN creates a private network so youre not sharing the public data that 
+everyone else is on, or has ever been on and browsers like tor browser protect the user so they cannot be tracked or have data stolen.
+
+3. What are the benefits and drawbacks of a national ID system like REAL ID?
+A pro of the ID is eventually it can be used as a default for medical identification for benefits such as health care, and if the government 
+wanted to require an ID to vote in the future they have a safe card for all legal citizens to use to vote. However, there are many cons such 
+as the very expensive implementation and the burden on state motor vehicle departments both in terms of workload and by the fact they're 
+required to store the necessary information to get a REAL ID for 10 years produces a possibility for identity theft.
+
+4. Although the REAL ID Act was originally passed by the U.S. Congress in 2005, extensions have pushed Oklahoma's federal REAL ID 
+deadline to May 3, 2023. Do you believe the delay in implementation constitutes an ethical issue? Explain in a short paragraph.
+I do not see an ethical issue with the extension, I think it is a waste of time and there was no reason for the delay if it had to happen 
+eventually. As someone from Oklahoma I got my REAL ID last spring but appointments are booked months in advance and tag agencies are swamped 
+all day so obtaining the ID has been a struggle. However, while I do not see the ethical issue, because there was no immediate reason for 
+them being forced to create a new ID besides air travel, but a passport can also be used so there is this new ID we are implementing but right 
+now there is already one out that can provide the same thing. In a utilitarian ethics view the benefits of switching to it did not outweigh 
+the other side of frustrating the population and using the limited federal funds Oklahoma has (in part because they are poorly managed) to 
+implement this new very expensive mandate.
