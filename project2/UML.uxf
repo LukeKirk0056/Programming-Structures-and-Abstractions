@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>536</x>
+      <y>400</y>
+      <w>440</w>
+      <h>184</h>
+    </coordinates>
+    <panel_attributes>/::AbstractVANET/
+--
+-vehicleName: String
+-vehicleNumber: int
+-vehicleAddress: String
+--
++AbstractVANET(String vehicleName, int vehicleNumber, String vehicleAddress): ctor
++getName(): String
++getAddress(): String
++setAddress(String newAddress): void
++getNumber(): int
++mailPriceCheck(): void
++toString(): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1264</x>
+      <y>264</y>
+      <w>256</w>
+      <h>184</h>
+    </coordinates>
+    <panel_attributes>::LetterAvg
+--
+~vehicleID = new String[20]: String[]
++output: String
+-input: char
+~newArray = new String[getArraySize()]: String[]
+--
++LetterAvg(Object letterAverage): ctor
++getArraySize(): int
++fileReader(): void
++numberOfVehicleWithLetterAvg(): int
++letterAvg(): void
++toString(): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>272</x>
+      <y>280</y>
+      <w>192</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>::PosAvg
+--
+-output: String
+~vehicleID = new String[20]: String[]
+-vehicleID1: String
+--
++PosAvg(String vehicleID): ctor
+-getArraySize(): int
++fileReader(): void
++indexOfVehicle(): int
++getAverage(): String
++toString(): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1008</x>
+      <y>280</y>
+      <w>192</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>::InheritVehicle
+--
+~vehicleID = new String[20]: String[]
+~stringVehicleID: String
+~avg: char
+--
++InheritVehicle(Vanet vanet): ctor
++getArraySize(): int
++fileReader(): void
++letterAverage(): char
++calAverage(): int[]
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1112</x>
+      <y>152</y>
+      <w>144</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>::Driver
+--
+-CAL_CEILING = 0: int
+-CAL_FLOOR = 1: int
+-CAL_AVG = 2: int
+--
++main(String[] args): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>528</x>
+      <y>280</y>
+      <w>456</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>::InheritVANET
+--
+-vehiclePrice: int
+--
++InheritVANET(String vehicleName, int vehicleNumber, String vehicleAddress, int i): ctor
++mailPriceCheck(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1136</x>
+      <y>464</y>
+      <w>160</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>::Vanet
+--
+-vehicleID: String
+--
++Vanet(String vehicleID): ctor
++getVehicleID(): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>992</x>
+      <y>464</y>
+      <w>120</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>/::AbstractVehicle/
+--
+--
+~calAverage(): int[]
+~letterAverage(): char
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1544</x>
+      <y>352</y>
+      <w>280</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>/::AbstractDateTime/
+--
+--
+~daysOfAnyMonth(int monthOfYear, int theYear): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1544</x>
+      <y>264</y>
+      <w>280</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>::InheritDateTime
+--
+--
++daysOfAnyMonth(int monthOfYear, int theYear): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1048</x>
+      <y>424</y>
+      <w>80</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1688</x>
+      <y>312</y>
+      <w>24</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>752</x>
+      <y>360</y>
+      <w>24</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
